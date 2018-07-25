@@ -40,21 +40,21 @@ ul.square-menu li a {
 }
 
 .obr1 {
-    background-image: url("../img/rest1.jpg");
+    background-image: url("../img/saladmaly.jpg");
     background-repeat: no-repeat;
     width: 100%;
 }
 
 .obr2 {
-    background-image: url("../img/rest2.jpg");
+    background-image: url("../img/sushimaly.jpg");
     background-repeat: no-repeat;
 }
 .obr3 {
-    background-image: url("../img/rest3.jpg");
+    background-image: url("../img/coffemaly.jpg");
     background-repeat: no-repeat;
 }
 .obr4 {
-    background-image: url("../img/rest4.jpg");
+    background-image: url("../img/exclusivemaly.jpg");
     background-repeat: no-repeat;
 }
 
