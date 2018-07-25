@@ -8,6 +8,7 @@ body {
   padding:80px;
 }
 ul.square-menu {
+    background-color: #829399;
     list-style-type: none;
     list-style: none;
     padding: 100px;
@@ -29,7 +30,7 @@ ul.square-menu li a {
     text-decoration: none;
     padding: 80px 60px;
     /*background: rgb(128, 128, 128);*/
-    color: white;
+    color: black;
     font-weight: normal;
     font-size: 150%;
     width: 60px;
@@ -52,7 +53,9 @@ ul.square-menu li a {
     background-repeat: no-repeat;
     width: 500px;
     height: 500px;
+
 }
+
 
 .obr2 {
     background-image: url("../img/sushimaly.jpg");

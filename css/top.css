@@ -1,0 +1,27 @@
+
+.column#i {
+  width: 50%;
+  float: left;
+  padding: 1%;
+  border: 2px solid #E8FCC2;
+}
+
+
+
+.column#k {
+  float: right;
+  width: 50%;
+  padding: 1%;
+  border: 2px solid #E8FCC2;
+}
+#k img {
+  width: 600px;
+  height: 360px;
+
+
+}
+#i img {
+  max-width: 600px;
+  height: 360px;
+
+}

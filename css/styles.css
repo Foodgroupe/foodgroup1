@@ -17,7 +17,13 @@ h1 {
 
 }
 
+div#pics{
+  background-image: url("../img/back10.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: #829399;
 
+}
 
 ul {
     list-style-type: none;
@@ -26,6 +32,7 @@ ul {
     width: 200px;
     background-color: #f1f1f1;
 }
+
 
 li a {
     display: block;
@@ -48,7 +55,9 @@ footer {
   margin: 1px;
   display: block;
   background-image: url("../img/Background1.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat-repeat-x;
+  float: bottom;
+
   width: 100%;
 
 }
