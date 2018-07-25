@@ -4,17 +4,21 @@ body {
     margin: 0;
     font-size: small;
 }
-
+#menu{
+  padding:80px;
+}
 ul.square-menu {
     list-style-type: none;
     list-style: none;
-    padding: 0;
+    padding: 100px;
     font-family: "Kavoon", Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     width: 380px;
     margin: 40px auto;
 }
-
+.row {
+  display: inline;
+}
 ul.square-menu li{
     float: left;
     margin:5px;
@@ -38,28 +42,38 @@ ul.square-menu li a {
     -o-transition: all 0.1s ease-in;
     transition: all 0.1s ease-in;
 }
-
+#pics imgs {
+  width: 500px;
+  height: 500px
+  padding:200px;
+}
 .obr1 {
-    background-image: url("../img/rest1.jpg");
+    background-image: url("../img/saladmaly.jpg");
     background-repeat: no-repeat;
-    width: 100%;
+    width: 500px;
+    height: 500px;
 }
 
 .obr2 {
-    background-image: url("../img/rest2.jpg");
+    background-image: url("../img/sushimaly.jpg");
     background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
 }
 .obr3 {
-    background-image: url("../img/rest3.jpg");
+    background-image: url("../img/coffemaly.jpg");
     background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
 }
 .obr4 {
-    background-image: url("../img/rest4.jpg");
+    background-image: url("../img/exclusivemaly.jpg");
     background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
 }
 
 ul.square-menu li a:hover {
-    /*background: rgb(48, 48, 48);*/
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     -o-transform: scale(1.2);

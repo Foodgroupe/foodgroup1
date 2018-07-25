@@ -1,4 +1,5 @@
-h1{
+
+h1 {
     font-family: "Freestyle Script", serif;
     color: #3F5431;
     font-size: 100px;
@@ -8,7 +9,7 @@ h1{
 
 
 }
-#logo{
+#logo {
     width: 320px;
     padding: 10px;
     border: 5px solid gray;
@@ -39,8 +40,46 @@ li a:hover {
 
 
 
+
+footer {
+  font-family: "Freestyle Script", serif;
+  color: #3F5431;
+  font-size: 20px;
+  margin: 1px;
+  display: block;
+  background-image: url("../img/Background1.png");
+  background-repeat: no-repeat;
+  width: 100%;
+
+}
+footer h3 {
+  font-size: 50px;
+
+
+}
+footer h5 {
+  font-size: 20px;
+  color: #3F5431;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+}
+footer svg {
+  width: 20px;
+  height: 20px;
+}
 .column {
     float: left;
-    width: 60%;
-    display: block;
+    width: 33.33%;
+    padding: 10px;
 }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
