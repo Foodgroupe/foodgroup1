@@ -6,56 +6,65 @@ h1 {
     margin: 1px;
 
 
+}
+
+h2 {
+    color: #526a41;
+
 
 
 }
 #logo {
+    text-align: center;
     width: 320px;
     padding: 10px;
-    border: 5px solid gray;
+    border: 5px solid #3F5431;
     margin: 10px;
 
 }
 
 div#pics{
-  background-image: url("../img/delsiback.png");
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-color: #829399;
-
+    background-size: auto;
+    background: black url("../img/delsiback.png") no-repeat;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0px;
     padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+    /*width: 200px;*/
+    background-color: #efe4c2;
+
 }
 
-
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
+#menu li {
+    display: inline;
+    padding-left: 75px;
+}
+#menu li a {
+    /*display: block;*/
+    color: #3F5431;
+    padding: 5px 16px;
     text-decoration: none;
+    font-size: 60px;
+    font-family: "Freestyle Script", serif;
 }
-li a:hover {
-    background-color: #555;
-    color: ;
+#menu li a:hover {
+    background-color: #b1a68b;
 }
 
 
 
 
 footer {
-  font-family: "Freestyle Script", serif;
-  color: #3F5431;
+  /*font-family: "Freestyle Script", serif;*/
+  background-color: #3f5431;
+    color:  #efe4c2;
   font-size: 20px;
   margin: 1px;
   display: block;
-  background-image: url("../img/Background1.png");
-  background-repeat: repeat-repeat-x;
+
+
 
 
   width: 100%;
@@ -71,7 +80,7 @@ footer h5 {
   color: #3F5431;
 }
 footer a{
-  color: white;
+  color:  #efe4c2;
   text-decoration: none;
 }
 footer svg {
@@ -92,3 +101,4 @@ footer svg {
     .column {
         width: 100%;
     }
+}
