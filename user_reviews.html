@@ -7,25 +7,73 @@
     <meta name="description" content="4 part square menu with CSS3">
     <meta name="author" content="Toolinfy.com" />
     <link href='http://fonts.googleapis.com/css?family=Kavoon' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/zkouska.css"  >
+    <link rel="stylesheet" type="text/css" href="css/top.css">
+    <link rel="stylesheet" type="text/css" href="css/user.css">
 
 </head>
 <body>
-  <div class="row">
-     <div id="logo" class="column">
-          <h1>FoodGroup</h1>
-          <h2>Your guide to restaurants</h2>
-      </div>
-      <nav>
+<div class="row">
+    <div id="logo" class="column">
+        <h1>FoodGroup</h1>
+        <h2>Your guide to restaurants</h2>
+    </div>
+    <nav>
         <div id="menu" class="column">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="top_two.html">Top Two of the Week</a></li>
-            <li><a href="user_reviews.html">User Reviews</a></li>
-          </ul>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="top_two.html">Top Two of the Week</a></li>
+                <li><a href="user_reviews.html">User Reviews</a></li>
+            </ul>
 
         </div>
-      </nav>
-  </div>
+    </nav>
+</div>
+    <div>
+        <p>
+    Roztomilý podnik Den Noc je další z mých Yelp objevů. Mini jednoduchý interiér dělá místo velmi příjemné a sympatická obsluha tomu ještě dodá takový domácky ráz.
+
+    Zatím jsem tu byla vždy jen ráno na lívance, které mě nikdy nezklamaly. Slané i sladké variace, klasiky i neobvyklé kombinace. Vybere si každý a ať zvolíte cokoliv, nikdy nemůžete šlápnout vedle. Plusem určitě je možnost bezlepkových lívanců.
+
+    Co mě tu vždy dostává je vůně linoucí se z kuchyně. Své už jsem snědla, tak před odchodem si chci odskočit a pak mě při cestě na toaletu praští do nosu tak lahodná vůně, že mám chuť si objednat lívance ještě jedny :D
+
+    V odpoledních hodinách se z podniku stává vinárnička. To jsem ještě neměla tu čest vyzkoušet, ale jednou na to zajisté přijde.
+        </p>
+    </div>
+<form>
+    <p>Tell us your opinion:</p>
+
+    <div class="container">
+        <div style="text-align:center">
+            <h2>Contact Us</h2>
+            <p>Swing by for a cup of coffee, or leave us a message:</p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div id="map" style="width:100%;height:500px"></div>
+            </div>
+            <div class="column">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+</form>
+
   <footer>
       <div class="row">
         <div class="column">
