@@ -3,21 +3,25 @@
   width: 45%;
   float: left;
   padding: 0;
-  border: 2px solid #E8FCC2;
+
 }
 .column#i {
   font-family: "Freestyle Script";
   font-size: x-large;
   margin: 1px;
+  ;
 }
 
-
+a {font-family: "Freestyle Script";
+  font-size: x-large;
+  color: black;
+}
 
 
 .column#k {
   float: right;
   padding: 0;
-  border: 2px solid #E8FCC2;
+
   width: 45%;
   margin: 1px;
 }
@@ -95,14 +99,4 @@
       display: block;
       float: right;
     }
-  }
-  .button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
   }
