@@ -6,15 +6,15 @@ body {
     box-sizing: border-box;
 }
 .div p {
-    border: #3f5431 solid 200px;
+    border: #efe4c2 solid 200px;
     background-color: white;
 }
 div.review {
-    background-color: white;
+    background-color: #efe4c2;
     border: black;
 }
 div.review_section {
-    background-color: white;
+    background-color: #efe4c2;
 }
 p {
     font-size: big;
@@ -31,7 +31,7 @@ input[type=text], select, textarea {
 
 input[type=submit] {
     background-color: black;
-    color: white;
+    color: #efe4c2;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
@@ -44,17 +44,17 @@ input[type=submit]:hover {
 
 .container {
     border-radius: 5px;
-    background-color: white;
+    background-color: #efe4c2;
     padding: 10px;
 }
 
 
-.column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-}
+/*.column {*/
+    /*float: left;*/
+    /*width: 50%;*/
+    /*margin-top: 6px;*/
+    /*padding: 20px;*/
+/*}*/
 
 
 .row:after {
