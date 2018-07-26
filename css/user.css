@@ -5,8 +5,21 @@ body {
 * {
     box-sizing: border-box;
 }
+.div p {
+    border: #3f5431 solid 200px;
+    background-color: white;
+}
+div.review {
+    background-color: white;
+    border: black;
+}
+div.review_section {
+    background-color: white;
+}
+p {
+    font-size: big;
 
-
+}
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -17,7 +30,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: black;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -25,13 +38,13 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: black;
 }
 
 
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: white;
     padding: 10px;
 }
 
