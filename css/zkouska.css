@@ -8,11 +8,7 @@ body {
   padding:80px;
 }
 ul.square-menu {
-<<<<<<< HEAD
-    background-color: #ffffc4;
-=======
-    background-image: url("../img/back111.png");
->>>>>>> 9c1b86dfc43274f3c756a5da9c8582a9b730ed01
+    background-color: #829399;
     list-style-type: none;
     list-style: none;
     padding: 100px;
@@ -34,13 +30,13 @@ ul.square-menu li a {
     text-decoration: none;
     padding: 80px 60px;
     /*background: rgb(128, 128, 128);*/
-
+    color: black;
     font-weight: normal;
-    
+    font-size: 150%;
     width: 60px;
     height: 20px;
     text-align: center;
-
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.05);
     -webkit-transition: all 0.1s ease-in;
     -ms-transition: all 0.1s ease-in;
     -moz-transition: all 0.1s ease-in;
