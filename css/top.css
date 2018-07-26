@@ -8,7 +8,7 @@
 .column#i {
   font-family: "Freestyle Script";
   font-size: x-large;
-  margin: 50px;
+  margin: 1px;
 }
 
 
@@ -19,7 +19,7 @@
   padding: 0;
   border: 2px solid #E8FCC2;
   width: 45%;
-  margin: 50px;
+  margin: 1px;
 }
 .column#k p{
   font-family: "Freestyle Script";
