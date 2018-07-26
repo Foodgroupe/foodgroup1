@@ -1,25 +1,35 @@
 
 .column#i {
-  width: 50%;
   width: 45%;
   float: left;
   padding: 0;
   border: 2px solid #E8FCC2;
 }
+.column#i {
+  font-family: "Freestyle Script";
+  font-size: x-large;
+  margin: 50px;
+}
+
 
 
 
 .column#k {
   float: right;
-  width: 50%;
   padding: 0;
   border: 2px solid #E8FCC2;
   width: 45%;
+  margin: 50px;
 }
+.column#k p{
+  font-family: "Freestyle Script";
+  font-size: x-large;
 
-#k img {
-  width: 500px;
+}
+#o img {
+  max-width: 500px;
   height: 360px;
+
 
 
 }
@@ -29,3 +39,70 @@
   height: 360px;
 
 }
+.column#o {
+  float: right;
+  width: auto;
+}
+.column#m {
+  float: right;
+  width: auto;
+}
+#m p {
+  display: block;
+}
+.column#o {
+  float: right;
+  width: auto;
+}
+.column#m {
+  float: left;
+  width: auto;
+}
+#m p {
+  display: block;
+}
+.column#x {
+  float: right;
+  width: auto;
+}
+.column#q {
+  float: left;
+  width: auto;
+}
+#q p {
+  display: block;
+}
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+  @media screen and (max-width: 250px) {
+    .column {
+      max-width: 100%;
+      float:right;
+    }
+  }
+  @media screen and (max-width:250px) {
+    .column #k{
+      max-width: 100%;
+      display: block;
+      float: right;
+    }
+  }
+  @media screen and (max-width: 250px) {
+    .column #i{
+      max-width: 100%;
+      display: block;
+      float: right;
+    }
+  }
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
